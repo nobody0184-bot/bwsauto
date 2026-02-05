@@ -1,0 +1,28 @@
+{
+  "name": "bws-automation",
+  "version": "1.0.0",
+  "description": "Automated browsing system with Playwright - simulates realistic human browsing behavior",
+  "main": "run.js",
+  "scripts": {
+    "start": "node run.js",
+    "test-proxy": "node src/utils/testProxy.js"
+  },
+  "keywords": [
+    "playwright",
+    "automation",
+    "browsing",
+    "proxy",
+    "socks5"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "playwright": "^1.40.0",
+    "proxy-chain": "^2.7.1",
+    "socks-proxy-agent": "^8.0.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
